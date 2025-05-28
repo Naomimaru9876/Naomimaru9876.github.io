@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mizuki's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Importing Google Fonts (Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS styles go here -->
+  <style>
+    /* Reset margin and padding, use border-box model */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* General body styling */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fff5e6, #ffe0f0);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header section */
+    header {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Navigation bar styling */
+    .navbar {
+      text-align: center;
+      background-color: white;
+      padding: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Links in the navigation bar */
+    .navbar a {
+      text-decoration: none;
+      color: #ff1493;
+      font-weight: 600;
+      margin: 0 25px;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #c71585;
+    }
+
+    /* Container for main content */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Headings */
+    h2, h3 {
+      text-align: center;
+      margin-top: 30px;
+      color: #c71585;
+    }
+
+    /* Styling for main images */
+    .main-image {
+      display: block;
+      margin: 30px auto;
+      max-width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    /* Footer styling */
+    footer {
+      text-align: center;
+      background-color: #c71585;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    /* Responsive design for mobile devices */
+    @media (max-width: 768px) {
+      .navbar a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top header section -->
+  <header>
+    <h1>Mizuki's Portfolio</h1>
+    <p>My Favorite Things ✨</p>
+  </header>
+
+  <!-- Navigation bar with internal page links -->
+  <div class="navbar">
+    <a href="Roblox.html">Roblox</a>
+    <a href="Music.html">J-Pop</a>
+    <a href="Soccer.html">Soccer</a>
+    <!-- These are relative links to other HTML pages in the same project -->
+  </div>
+
+  <!-- Main content container -->
+  <div class="container">
+
+    <!-- Name section -->
+    <h2>👤 My Name is MIZUKI TADA</h2>
+    <img class="main-image" src="https://toto.docomo.ne.jp/contents_lp/0021/img/im_kv.png" alt="Mizuki profile" />
+
+    <!-- Birthday section -->
+    <h2>🎂 My Birthdate: 2009/9/11</h2>
+    <img class="main-image" src="https://funtre.com/wp-content/uploads/2015/11/happy-birthday-72160_1280-1200x800.jpg" alt="Birthday" />
+
+    <!-- Hometown section -->
+    <h2>🗾 I was born in Japan!</h2>
+    <img class="main-image" src="https://tmyun.com/jpeg/yun_17633.jpg" alt="Japan scenery" />
+
+    <!-- External links open in a new tab -->
+    <h3><a href="https://www.roblox.com/ja" target="_blank">🔗 Visit Roblox</a></h3>
+    <h3><a href="https://www.youtube.com/watch?v=YtXV3TTUUpg" target="_blank">🎵 J-Pop Medley</a></h3>
+    <h3><a href="https://www.youtube.com/watch?v=ikr4OyJE3QA" target="_blank">⚽ Most Famous Soccer Match</a></h3>
+    <!-- These are absolute links to external websites -->
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2025 Mizuki Tada's Portfolio</p>
+  </footer>
+
+</body>
+</html>
