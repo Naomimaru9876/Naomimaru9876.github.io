@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsive design -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to J-Pop</title>
+
+  <!-- Importing Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Internal CSS styles -->
+  <style>
+    /* Reset default spacing and use border-box model */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Basic page styling */
+    body {
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #ffe4e1);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header section with gradient background */
+    header {
+      background: linear-gradient(135deg, #c71585, #ff69b4);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Main title styling */
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    /* Main content container */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Hero image style */
+    .hero-image {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    /* Hover effect on images */
+    .hero-image:hover {
+      transform: scale(1.03);
+    }
+
+    /* Section box styling */
+    .section {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 30px 0;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    /* Lift effect on hover */
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Section titles */
+    h2 {
+      color: #c71585;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+
+    /* List spacing */
+    ol li {
+      margin: 10px 0;
+    }
+
+    /* Link to go back to main page */
+    a.back-link {
+      display: inline-block;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      color: #c71585;
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.3s ease;
+    }
+
+    a.back-link:hover {
+      color: #a01070;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #c71585;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .section {
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Website header with title and subtitle -->
+  <header>
+    <h1>Welcome to the World of J-Pop!</h1>
+    <p>Feel the music. Embrace the emotion. Discover J-Pop.</p>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container">
+
+    <!-- Link to return to main portfolio page -->
+    <a class="back-link" href="portfolio.html">← Back to Main Page</a>
+
+    <img src="https://happymail.co.jp/happylife/wp-content/uploads/2021/03/image2-56.jpg" class="hero-image" alt="J-Pop theme" />
+
+    <!-- What is J-Pop section -->
+    <div class="section">
+      <h2>What is J-Pop?</h2>
+      <p>
+        J-Pop (Japanese Pop) is a vibrant genre that blends catchy hooks, emotional storytelling, and stunning visuals. It’s a cornerstone of Japanese youth culture and increasingly beloved around the globe.
+      </p>
+    </div>
+
+    <!-- Favorite J-Pop artists -->
+    <div class="section">
+      <h2>Top 5 Favorite Artists</h2>
+      <ol>
+        <li>Mrs. GREEN APPLE</li>
+        <li>Vaundy</li>
+        <li>Yorushika</li>
+        <li>ZUTOMAYO (Zutto Mayonaka de Iinoni)</li>
+        <li>Orangestar</li>
+      </ol>
+    </div>
+
+    <!-- Favorite J-Pop songs -->
+    <div class="section">
+      <h2>Top 5 Favorite Songs</h2>
+      <ol>
+        <li><strong>Sonna Bitter na Hanashi</strong> by Vaundy</li>
+        <li><strong>Same Blue</strong> by Official HIGE DANDism</li>
+        <li><strong>Soranji</strong> by Mrs. GREEN APPLE</li>
+        <li><strong>Byoushin wo Kamu</strong> by ZUTOMAYO</li>
+        <li><strong>Surges</strong> by Orangestar</li>
+      </ol>
+    </div>
+
+    <!-- Why J-Pop is special -->
+    <div class="section">
+      <h2>Why J-Pop is Special</h2>
+      <p>
+        J-Pop blends emotion, storytelling, and trend-setting visuals in a way that's unlike any other genre. It crosses boundaries between music, anime, and fashion, creating a unique culture that continues to inspire fans worldwide.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer at the bottom of the page -->
+  <footer>
+    <p>&copy; 2025 J-Pop Introduction Website | Designed with 🎧 and 💖</p>
+  </footer>
+
+</body>
+</html>
